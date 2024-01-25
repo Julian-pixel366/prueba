@@ -1,0 +1,61 @@
+$base-color: black;
+$color: white;
+
+.navbar {
+  background-color: $base-color;
+  z-index: 1000;
+  position: relative;
+  display: flex;
+  
+  container {
+    justify-content: center;
+    text-align: center;
+  }
+
+  
+}
+
+.title {
+  text-decoration: solid;
+  color: $color;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+}
+
+
+.user {
+  color: $color;
+  justify-content: end;
+  align-items: end;
+  display: flex;
+
+
+}
+
+
+.user-icon{
+  justify-content: end;
+
+  &:hover{
+    cursor: pointer;
+  }
+}
+.menu {
+  color: $color;
+  justify-content: center;
+  align-items: end;
+  display: flex;
+  
+}
+.nav-item{
+  text-align: center;
+
+  &:hover{
+    cursor: pointer;
+    font-weight: bold;
+  }
+
+}
+
+
